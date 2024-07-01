@@ -1,0 +1,17 @@
+.doot {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .doot {
+    position: relative;
+  }
+}
+.divtt {
+  margin-top: 45%;
+}
+
+.r04 {
+  font-size: 72px;
+}/*# sourceMappingURL=nfound.css.map */

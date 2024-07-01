@@ -1,0 +1,128 @@
+.bgy1, .bgy2 {
+  display: inline-block;
+}
+
+.bgy1 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_drZoS4Q2mT2kF-foAfDwu56w2WwrIT-Bvg&s");
+  background-size: cover;
+  width: 48%;
+  height: 300px;
+  bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+.bgy2 {
+  width: 48%;
+}
+.bgy2 .bgy3 {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_drZoS4Q2mT2kF-foAfDwu56w2WwrIT-Bvg&s");
+  background-size: cover;
+}
+
+@media screen and (max-width: 1160px) {
+  .bgy1 {
+    height: 280px;
+  }
+  .bgy3 {
+    height: 250px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .bgy1 {
+    height: 300px;
+  }
+  .bgy3 {
+    height: 300px !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .bgy1 {
+    height: 250px;
+  }
+  .bgy3 {
+    height: 250px !important;
+  }
+  .bgy4 .p1 {
+    font-size: 10pt;
+  }
+}
+@media screen and (max-width: 625px) {
+  .bgy1, .bgy2 {
+    width: 100% !important;
+  }
+  .bgy1, .bgy3 {
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .bgy1, .bgy3 {
+    height: 300px !important;
+  }
+}
+.bgyy1, .bgyy2 {
+  display: inline-block;
+}
+
+.bgyy1 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_drZoS4Q2mT2kF-foAfDwu56w2WwrIT-Bvg&s");
+  background-size: cover;
+  width: 48%;
+  height: 300px;
+  bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+.bgyy2 {
+  width: 48%;
+}
+.bgyy2 .bgyy3 {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_drZoS4Q2mT2kF-foAfDwu56w2WwrIT-Bvg&s");
+  background-size: cover;
+}
+
+@media screen and (max-width: 1160px) {
+  .bgyy1 {
+    height: 280px;
+  }
+  .bgyy3 {
+    height: 250px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .bgyy1 {
+    height: 300px;
+  }
+  .bgyy3 {
+    height: 300px !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .bgyy1 {
+    height: 250px;
+  }
+  .bgyy3 {
+    height: 250px !important;
+  }
+  .bgyy4 .p1 {
+    font-size: 10pt;
+  }
+}
+@media screen and (max-width: 625px) {
+  .bgyy1, .bgyy2 {
+    width: 100% !important;
+  }
+  .bgyy1, .bgyy3 {
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .bgyy1, .bgyy3 {
+    height: 300px !important;
+  }
+}/*# sourceMappingURL=yangiliklar.css.map */

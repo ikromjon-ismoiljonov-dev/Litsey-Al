@@ -1,0 +1,22 @@
+@media screen and (max-width: 484px) {
+  .div-pdf {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  .div-pdf svg {
+    font-size: 50pt;
+  }
+  .div-bos {
+    gap: 0 !important;
+    justify-content: space-between;
+  }
+}
+.div-bos {
+  gap: 3;
+}
+
+@media screen and (max-width: 370px) {
+  .div-pdf {
+    padding: 20px !important;
+  }
+}/*# sourceMappingURL=qabul.css.map */

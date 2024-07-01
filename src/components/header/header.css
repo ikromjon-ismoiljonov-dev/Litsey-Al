@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.divh2 {
+  padding-right: 220px;
+  padding-top: 30px;
+}
+.divh2 .p1 {
+  color: #0A4A8C;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.divh2 .p2 {
+  font-size: 64px;
+  line-height: normal;
+  margin-bottom: 10px;
+  z-index: 50 !important;
+  font-weight: 600;
+}
+.divh2 .p3 {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.divh2 .btn1 {
+  padding: 10px 20px;
+  background-color: #0A4A8C;
+  color: white;
+  margin-right: 10px;
+  border-radius: 40px;
+  font-size: 15px;
+  width: 140px;
+}
+.divh2 .btn2 {
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 15px;
+  background-color: #F1F1E6;
+  width: 140px;
+}
+
+.div-bg {
+  width: 750px;
+  background-color: gray;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.div-bg .ps1, .div-bg .ps2 {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  background-color: white;
+}
+.div-bg .ps1 {
+  top: -10px;
+  left: -110px;
+  transform: rotate(-45deg);
+}
+.div-bg .ps2 {
+  bottom: -10px;
+  right: -100px;
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 560px) {
+  .ps1, .ps2 {
+    height: 50px !important;
+  }
+}
+@media screen and (max-width: 1460px) {
+  .div-bg {
+    width: 100%;
+    height: auto;
+  }
+  .div-bg img {
+    width: 100%;
+  }
+  .divh2 {
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 1248px) {
+  .p2 {
+    font-size: 40px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p2 {
+    font-size: 30px !important;
+  }
+  .p3 {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  .p1 {
+    font-size: 10pt;
+  }
+  .p2 {
+    font-size: 20pt !important;
+  }
+}
+@media screen and (max-width: 460px) {
+  .divh2 .btn1, .divh2 .btn2 {
+    width: 100px;
+    font-size: 9pt;
+  }
+}/*# sourceMappingURL=header.css.map */
