@@ -222,7 +222,6 @@ const Home = () => {
                         </div>
                      </div>
 
-
                     </div>
                     <div className="col-xxl-6 mb-3 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                       <p className="mb-10 fw-montserrat bg-sccolor d-flex gap-2 items-center"><FaChalkboardTeacher className="main-color text-2xl"/> {homeText[i18n.language].xod}</p>
@@ -332,7 +331,7 @@ const Home = () => {
       </section>
 
       <section class="text-gray-600 bg-white body-font overflow-hidden youtube">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="px-5 py-24 mx-auto">
 
         <h1 className="news mb-5 text-center">{homeText[i18n.language].ques} </h1>
 
@@ -408,7 +407,7 @@ const Home = () => {
       </section>
 
       <section class="text-gray-600 youtube body-font">
-  <div class="container px-5 py-24 mx-auto">
+  <div class=" w-100 px-5 py-24 mx-auto">
     <h1 class="text-4xl font-semibold title-font text-white mb-12 text-start">{homeText[i18n.language].contact}</h1>
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/2 w-full">
